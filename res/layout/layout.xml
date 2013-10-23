@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/step_1" >
+
+    <TextView
+        android:id="@+id/title_step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/step_1_2"
+        android:textSize="@dimen/text_big"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/step_1_2"
+        android:text="@string/title_step2_info" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/step_1_8"
+        android:background="@android:color/darker_gray" />
+
+    <GridView
+        android:id="@+id/collage_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/step_1"
+        android:columnWidth="@dimen/img_size_small"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/step_1_2"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/step_1_2" />
+
+</LinearLayout>

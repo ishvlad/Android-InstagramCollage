@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:padding="@dimen/step_1" >
+
+    <TextView
+        android:id="@+id/title_step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/step_1_2"
+        android:textSize="@dimen/text_big"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/step_1_2"
+        android:text="@string/title_step1_info" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/step_1_8"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/instagram_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/step_1"
+        android:layout_marginRight="@dimen/step_1"
+        android:layout_marginTop="@dimen/step_1"
+        android:hint=""
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button_get_collage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/step_3"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/step_1"
+        android:gravity="center"
+        android:text="@string/button_get_collage" />
+
+</LinearLayout>

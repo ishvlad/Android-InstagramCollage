@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_size_small">100dp</dimen>
+    <dimen name="img_size_big">300dp</dimen>
+    
+    <dimen name="step_0">0dp</dimen>
+    <dimen name="step_1_8">2dp</dimen>
+    <dimen name="step_1_2">8dp</dimen>
+    <dimen name="step_1">16dp</dimen>
+    <dimen name="step_2">32dp</dimen>
+    <dimen name="step_3">48dp</dimen>
+    
+    <dimen name="text_big">21sp</dimen>
+    <dimen name="text_button">17sp</dimen>
+</resources>
