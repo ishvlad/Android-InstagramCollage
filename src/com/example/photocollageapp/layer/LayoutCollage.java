@@ -29,7 +29,7 @@ public class LayoutCollage implements Serializable {
 	}
 	
 	public Bitmap getScaledBitmap(Bitmap bmp, int position, int width) {
-		return mCountOfPhotos == 4 || (mCountOfPhotos == 3 && position != 2) ? bmp :
+		return mCountOfPhotos == 4 || (mCountOfPhotos == 3 && position != 2) ? Bitmap.createScaledBitmap(bmp, width/2, width/2, false) :
 				mCountOfPhotos == 3  && position == 2 ? isHorisontal ?  Bitmap.createScaledBitmap(bmp, width, width/2, false) :
 																		Bitmap.createScaledBitmap(bmp, width/2, width, false) :
 					mCountOfPhotos != 1 ? isHorisontal ?    Bitmap.createScaledBitmap(bmp, width, width/2, false) :
